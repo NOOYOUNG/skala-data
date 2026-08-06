@@ -29,9 +29,9 @@
 
 import asyncio
 
-from benchmark import measure
-from collector import collect_data
-from processor import mak_dataframe, save_files
+from src.pipeline.benchmark import measure
+from src.pipeline.collector import collect_data
+from src.pipeline.processor import mak_dataframe, save_files
 
 
 async def main():

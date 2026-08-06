@@ -1,0 +1,1 @@
+"""소스 루트 패키지 (tests 에서 `from src.pipeline...` 형태로 import 하기 위한 마커)"""

@@ -7,7 +7,7 @@
 
 import pandas as pd
 
-from schemas import validate_weather
+from src.pipeline.schemas import validate_weather
 
 
 # API JSON -> DataFrame 변환

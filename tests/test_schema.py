@@ -8,7 +8,7 @@
 import pytest
 from pydantic import ValidationError
 
-from schemas import WeatherSchema
+from src.pipeline.schemas import WeatherSchema
 
 
 def test_weather_valid():
